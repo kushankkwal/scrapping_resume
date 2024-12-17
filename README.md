@@ -25,8 +25,8 @@ pip install pandas openai pymupdf python-docx
 
 ### Project Setup
 1. **Set Up OpenAI API Key:**
-   *Replace the placeholder ```key = ""``` in the code with your actual OpenAI API key.
-   *Ensure you have appropriate access and limits set for your OpenAI account.
+   Replace the placeholder ```key = ""``` in the code with your actual OpenAI API key.
+   Ensure you have appropriate access and limits set for your OpenAI account.
 2. **Organize Resumes:** Place all the resumes you want to process in a directory. Update the ```folder_path``` variable in the code to point to this directory.
 
 ### Usage
