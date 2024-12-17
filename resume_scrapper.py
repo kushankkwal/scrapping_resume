@@ -65,7 +65,7 @@ def extract_text_from_docx(docx_path):
 
 
 # Define the folder path where your resumes are stored
-folder_path = 'C:/Users/shiva/Desktop/IITJ/For Darshan/downloaded_pdfs'
+folder_path = '/Users/kushankkwal/Desktop'
 
 # List to store literals for each extracted text
 literals = []
