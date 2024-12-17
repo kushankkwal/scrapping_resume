@@ -35,6 +35,17 @@ To run the resume scrapper:
      ```python resume_scrapper.py```
   2. **Output:** The script will process all the resumes in the specified folder and save the extracted data in a CSV file (```final_extract_v1.csv```).
 
+### Code Breakdown
+
+   1. **extract_text_from_pdf(pdf_path):** Extracts text content from a PDF file using the fitz library.
+   2. **extract_text_from_docx(docx_path):** Extracts text content from a DOCX file using the python-docx library.
+   3. **OpenAI Integration:** Uses OpenAI’s API to process the extracted text and identify key information such as name, email, company, role, and skills.
+   4. **Data Storage:** Converts the extracted information into a DataFrame and saves it as a CSV file.
+
+### Future Enhancements
+   1. **Enhanced Data Validation:** Implementing checks to ensure the accuracy and completeness of the extracted data.
+   2. **Support for Additional File Formats:** Adding support for other resume formats like TXT, RTF, etc.
+   3. **GUI Integration:** Developing a user-friendly graphical interface to make the tool more accessible.
 
 
      
