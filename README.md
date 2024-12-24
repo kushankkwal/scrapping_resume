@@ -45,7 +45,7 @@ To run the resume scrapper:
 ### Future Enhancements
    1. **Enhanced Data Validation:** Implementing checks to ensure the accuracy and completeness of the extracted data.
    2. **Support for Additional File Formats:** Adding support for other resume formats like TXT, RTF, etc.
-   3. **GUI Integration:** Developing a user-friendly graphical interface to make the tool more accessible.
+   3. **GUI Integration:** Developing a user-friendly graphical interface to make the tool more accessiblle.
 
 
      
